@@ -10,13 +10,13 @@ public class Plat {
     public Plat(){
     }
 
-    public Plat(String nom_plat, String categorie_plat, int prix_plat) {
+    public Plat(String nom_plat, String categorie_plat, double prix_plat) {
         this.nom_plat = nom_plat;
         this.categorie_plat = categorie_plat;
         this.prix_plat = prix_plat;
     }
 
-    public Plat(int id_plat, String nom_plat, String categorie_plat, int prix_plat) {
+    public Plat(int id_plat, String nom_plat, String categorie_plat, double prix_plat) {
         this(nom_plat, categorie_plat, prix_plat);
         this.id_plat = id_plat;
     }
